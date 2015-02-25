@@ -1,62 +1,66 @@
-<!-- Here' my 1st web page!!-->
+<!DOCTYPE html>
+<!--My First Web Page-->
+<meta charset="UTF-8">
 <html>
   <head>
-   <link rel="stylesheet" type="text/css" href="Project-1-CSS.css"/>
-   <div class="lesson">
-    <title>STAGE 1: MAKE YOUR WEB PAGE</title>     
-   </head>
-    <body> 
-   <div class="h1">     
+   <link rel="stylesheet" type="text/css" href="Project-1-CSS.css">
+    <title>Intro to Programming - Project I</title> 
+  </head>
+  
+    <div class="lesson">
+    
+  <body>
+    <div class="h1">  
       <h1>STAGE 1: MAKE YOUR WEB PAGE</h1>
-   
-   <div class="concept">
-   <div class="concept-description">
-  <div>
+    </div>
+      
+    <div class="concept">
+    <div class="concept-description">
+    </div>
+
+    
     <div class="session">
       <h2>Work Session 1: HTML</h2>
     </div>
-    <div>
-        <p>
-      <div class="concept-title">
-        <b>TERMINOLOGY</b>
-      </p>
+    
+    <div class="concept-title">
+      <b>TERMINOLOGY</b>
     </div>  
-      <p>
+    
     <div class="concept-description">
+      <ul>
           <li><b>Text content</b> - what you see</li>
           <li><b>Markup</b> - what it looks like</li>
           <li><b>References</b>- refer to other documents -images and videos</li>
           <li><b>Links</b> - connect to other locations</li>
-      </p>
-      <p>
+      </ul>
+      <ul>
           <li><b>Tag</b> - An HTML tag is always contained with angled brackets</li>
           <li><b>Element</b> - An HTML element refers to everything within a set of opening and closing tags</li>
           <li><b>Attribute</b> - This is a property of an HTML element</li>
-      </p>
-      <p>
+      </ul>
+      <ul>
           <li>The <b>"b"</b> tag is Bold</li>
-          <li>The <b>"em"</b> tag is Emphasis is italics</li></b>
-          <li>Hyperlinks use <b>"anchors"</b> are for connecting links with an HREF attribue</li>
+          <li>The <b>"em"</b> tag is Emphasis is italics</li><li>Hyperlinks use <b>"anchors"</b> are for connecting links with an HREF attribue</li>
           <li>Images use <b>"img"</b> to connect pictures with an SRC attribute (also gives the pic a name)</li>
           <li>Line breaks <b>"br"</b>add a an empty row called a void.: INLINE ends a line</li>
           <li>A paragraph <b>"p"</b> is used for content and will not leave a void: BLOCK contains height and length</li>
           <li>The <b>"span"</b>equals inline</li>
           <li>The infamous<b>"div"</b> createsa a block.  This is how you separate sections on a page.</li>
-      </p>
-      <p>
+      </ul>
+      <ul>
           <li>Use <b>"doctype</B> to define the type of document being used</li>
           <li>The <b>"html"</b> tells the browser how to interpret the page/li>
           <li>The <b>"head"</b> tag contains Metadata, Javascript and CSS. It  also contains <b>"title"</b> which displays the page name</li>
           <li>The <b>"body"</b> tag holds everything else on your web page which is our main focus!</li>
-      </p>
+      </ul>
     </div>
-    <div>
-      <p>
-      <div class="concept-title">
-        <b>CSS</b>
-      </p>
-      </div> 
-     <div class="concept-description">  
+      
+    <div class="concept-title">
+      <b>CSS</b>
+    </div> 
+    
+    <div class="concept-description">  
       <p>
         HTML stands for <em>Hypertext Markup Language.</em> Its a language with syntax and rules.  HTML documents form the majority of the content on the web.
         HTML documents contain <em>text content</em> which describes
@@ -65,6 +69,7 @@
         has every reference needed.
       </p>
     </div>
+    
     <div>
       <p>
         <b>Tags and Elements</b>
@@ -73,104 +78,96 @@
         HTML documents are made of HTML <b>elements</b>. When
         writing HTML, we tell browsers the type of each element
         by using HTML <b>tags</b>.
+        <br>
         <img src="images/element.png" alt="Element Example"> 
       </p>
     </div>
-    <div>
-        <p>
-      <div class="concept-title">
-        <b>DOM</b>
-      </p>
+
+    <div class="concept-title">
+       <b>DOM</b>
     </div>  
-    <div>
-      
-      <p>
+    
+    <div>    
         The DOM stands for Document Object Model.  The Document Object Model is a platform- and language-neutral interface that will allow programs and scripts to dynamically access and update the content, structure and style of documents. The document can be further processed and the results of that processing can be incorporated back into the presented page.
         <br>
-        When programmers talk about the "DOM" they are talking about the tree-like structure of a page.
-      </p>
+        To render a document such as an HTML page, most web browsers use an internal model similar to the DOM. The nodes of every document are organized in a tree structure, called the DOM tree, with topmost node named "Document object". When an HTML page is rendered in browsers, the browser downloads the HTML into local memory and automatically parses it to display the page on screen. 
+        <br>
+        <br>
+        <img src="images/domtree.png" alt="DOM Tree"> 
     </div>
-    <div>
-      <p>
-      <div class="concept-title">
+
+    <div class="concept-title">
         <b>Inline vs Block Elements</b>
-      </p>
-     </div>
-     <div>  
-      <p>
+   </div>
+  
+    <div>  
         HTML elements are either <b>inline</b> or <b>block</b>.
         Block elements form an "invisible box" around the
         content inside of them.  All elements are rectangular.
-      </p>
     </div>
-  </div>
-  <div>
-      
-      <div class="session">
-    <h3>Work Session 2: Creating a Structured Document with HTML</h3>
+
+    <div class="session">
+      <h3>Work Session 2: Creating a Structured Document with HTML</h3>
     </div>
-     <div>
-      <div class="concept">
-      <div>
-      <p>
-      <div class="concept-title">
+     
+    <div class="concept">
+    <div class="concept-title">
         <b>Developer Tools (in the Browser)</b>
-      </p>
-     </div>
-      <p>
+    </div>
+    
         HTML elements are either <b>inline</b> or <b>block</b>.
         Block elements form an "invisible box" around the
         content inside of them.
-      </p>
     </div>
-    <div>
-    <p>
-      <div class="concept-title">
+    
+    <div class="concept-title">
         <b>Search and Replace</b>
-      </p>
-     </div> 
+    </div> 
+    
       <p>
           You can also think about CSS as a search and replace tool: you identify a class or a tag of the element you want to find (or match, in CSS terminology), and then what you want to do with it, or what property values to replace with different one
       </p>
+
+    <div class="concept-title">
+      <b>Order Matters</b>
     </div>
-    <div>
-      <p>
-      <div class="concept-title">
-        <b>Order Matters</b>
-      </p>
-     </div>
-          <p>
-         It also matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, with definitions further down the list overwriting previous definitions:
+
+        It also matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, with definitions further down the list overwriting previous definitions:
+      
+      <ul>
       <li>the default style of a browser (different browsers have slightly different styles)</li>
       <li>stylesheet in a separate file (this is what you will be mostly using)</li>
       <li>stylesheet inside HTML (this can be done for small projects but is not ideal)</li>
       <li>inline style in an element (this can also be done but should be avoided)</li>
-      </p>
+      </ul>
+
+    <div class="concept-title">
+      <b>Specifics Matter</b>
     </div>
-    <div>
-      <p>
-      <div class="concept-title">
-        <b>Specifics Matter</b>
-      </p>
-     </div>
+
       <p>
         "Cascading" means that rules are applied not only to the elements they directly match, but also to all of those elements' child elements. However, if a child element has multiple, overlapping rules defined for it, the more specific rule takes effect.
       </p>
+
+    <div class="concept-title">
+      <b>Repetition</b>
     </div>
-    <div> 
-     
-     
-     <div class="session">
-       <h3>Work Session 3: Adding CSS Style to HTML Structure</h3>
-    </div>
-    <div>
-      <div class="concept">
-       <div>
+
       <p>
-      <div class="concept-title">
-        <b>The Box Model</b>
+         One of the principles of programming is "Don't Repeat Yourself" (DRY).  Repetition only clutters your code and makes it difficult for the next programmer to debug it.
+         Selectors are what allows you to target specifc HTML elements and apply style to them.  By doing this, you can condense your CSS to avoid unnecessary repetition, which waste time, and time is precious.  
       </p>
-     </div>
+    <div class="session">
+      <h3>Work Session 3: Adding CSS Style to HTML Structure</h3>
+    </div>
+
+    <div class="concept">
+    </div>
+    
+    <div class="concept-title">
+      <b>The Box Model</b>
+    </div>
+
       <p>
       HTML elements are boxes with the following components:
         <br>1. Margin - transparent space between boxes around Border
@@ -178,48 +175,45 @@
         <br>3. Padding - space inside box to protect Content (uses background color of the box)
         <br>4. Content - Image or Text, sits at center protected by other layers
       </p>
-       <div>
-      <p>
-      <div class="concept-title">
-        <b>Box Sizing</b>
-      </p>
-     </div>
+       
+    <div class="concept-title">
+      <b>Box Sizing</b>
+    </div>
+
       <p>
       There are two techniques to size boxes
         <br>1. Set sizes in terms of percents rather than values
         <br>2. Easy layout codes (box-sizing: border-box;)
       </p>
-      <div>
-      <p>
+
       <div class="concept-title">
-        <b>Adapt to all Browsers</b>
-      </p>
+        <b>Adapt to all Browsers</b> 
      </div>
-      <p>
+
+      <ul>
         <li><b>Chome</B> -webkit-box-sizing: border-box;</li>
-         <li><b>Firefox</b>  -moz-box-sizing: border-box;/li>
+         <li><b>Firefox</b>  -moz-box-sizing: border-box;</li>
          <li><b>"IE"</b> -ms-box-sizing: border-box;</li>
-      </p>
-      <div>
-      <p>
-      <div class="concept-title">
-        <b>Box Positioning</b>
-      </p>
-     </div>
+      </ul>
+      
+    <div class="concept-title">
+      <b>Box Positioning</b>
+    </div>
+
       <p>
         Divs are block elements (as opposed to Inline) and take up the entire page width by default.  Use the Flex Box code to allow Divs to appear next to each other.
       </p>
-       <div>
-      <p>
-      <div class="concept-title">
-        <b>Flex Box</b>
-      </p>
-     </div> 
-      <p>
-        A flexible box to lay out, align and distribute space among items in a div or container.
-        <li><b>Flex Box Example</B> element.style {display: flex;}</li> 
-    </div>
 
-  </div>
-</body>
+    <div class="concept-title">
+      <b>Flex Box</b>
+     </div>
+
+    <div>
+        A flexible box to lay out, align and distribute space among items in a div or container.
+        <ul>
+        <li><b>Flex Box Example</b> element.style {display: flex;}</li> 
+      </ul>
+
+    </div>
+  </body>
 </html>
