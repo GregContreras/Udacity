@@ -3,7 +3,7 @@
 <html>
   <head>
    <meta charset="UTF-8">
-   <link rel="stylesheet" type="text/css" href="Project-1-CSS.css">
+   <link rel="stylesheet" type="text/css" href="css.css">
     <title>Intro to Programming - Project I</title> 
   </head>
   <body>
@@ -204,5 +204,296 @@
         <li><b>Flex Box Example</b> element.style {display: flex;}</li> 
       </ul>
     </div>
+<!--Project 2 begins-->
+    <div class="h1">  
+      <br>
+      <h1>STAGE 2: AUTOMATE YOUR PAGE</h1>
+    </div>
+    <div class="concept-description">
+    </div>
+
+    <div class="session">
+      <h2>Intro to Serious Programming</h2>
+    </div>
+    
+    <div class="concept-title">
+      <b>What is Programming</b>
+    </div>
+      <p>
+        Computers are machines that must be told what to do.  As a programmer your job will be to write programs to tell the computer what to do.
+        <br>
+        Programming is the core of computer science.  A program describes the sequence of steps to complete an action.   
+        <br>
+        A programming language is a rule based set of instructions.  The computer uses a compiler to interpret this and execute it.  Examples of programming languages are Python, C++, JavaScript and Ruby on Rails.
+        <br>
+        Python will be taught in this class.  Once the code is written, it must run through a Python Interpreter to covert it into computer instructions.
+        <br>
+        If programming grammar is not followed, the interpreter will return a syntax error; this means the structure of the code is inconsistent with the rules of the programming language. Backus-Naur Form is used to describe a programming language in a simple and concise manner.
+        <br>
+      <div class="concept-title">
+      <b>Expressions</b>
+     </div>
+      <p>
+        An expression is something that has a value. Expressions are not to be confused with equations. Below are some examples of expressions in Python:
+      </p>
+        <ul>
+          <li>3</li>
+          <li>1 + 1</li>
+          <li>7 * 7 * 24 * 60</li>
+        </ul>
+    <div class="concept-title">
+      <b>Debugging</b>
+    </div> 
+      <p>Debugging  is a methodical process of finding and reducing the number of defects in a computer program.  The trick is to develop a way of finding and fixing them.
+      <p>
+    
+    <div class="session">
+      <h2>Variables and Strings</h2>
+    </div>
+    
+    <div class="concept-title">
+      <b>Variables</b>
+    </div>    
+      <p>
+        <ul>
+        <li>What is a variable?  A variable gives a name to a value.  
+        <br>If the variable 'X'=1 then the Python statement is:
+        <br>print X + X, then the result would be '2'.</li>
+        <li>What does it mean to assign a value to a variable?</li>
+        <li>What is the difference between what the equals = means in math versus in programming.</li> 
+        <li>What's the difference between this: 2 + 3 = 5 and this: my_variable = 5?</li>
+        </ul>
+
+    <div class="concept-title">
+      <b>Strings</b>
+    </div> 
+      <p>
+        A string is a sequence of charactrers surrounded by quotes.
+
+    <div class="session">
+      <h2>Input->Function->Output</h2>
+    </div>
+      <p>
+        <ul>
+        <li>What is a function/procedure?</li>
+
+        <li>What is the difference between making and using a function</li>
+
+        <li>How do functions help programmers avoid repetition?</li>
+
+        <li>What happens if  a fuction doesn't have a <i>return</i> statement?</li>
+
+        </ul>
+      <p>
+    <div class="concept-title">
+      <b>Input</b>
+        <br>
+        <b><i>On the first line of your function definition..</i></b>
+        You must begin the line with def (lowercase).
+        After def you must give a function name (in this case it will be udacify.
+        Next, you must have a set of parentheses with the required parameters inside.
+        The line must end with a : colon.
+     </div>   
+    <div class="concept-title">
+      <b>Function</b>
+        <br>
+        <b><i>In the body of the function</i></b>
+        Every line in the function must be indented.
+        If you want your function to produce output, it must end with a return statement.
+        <br>
+        <b><i>To "call" the function...</i></b>
+        "Calling" a function just means using it. You do this by writing:
+        The function name, followed by...
+        ...an open paren (, followed by...
+        ...the values for the required parameters, followed by...
+    </div>    
+    <div class="concept-title">
+      <b>Output</b>
+        <br>
+        <b><i>To display the results of a function call.</i></b>
+        Don't forget to include the print command before you call your function if you want to display the result on your screen!  
+
+    </div>
+
+
+    <div class="session">
+      <h2>Decisions and Repetition: If and While</h2>
+    </div>
+    <div class="concept-title">
+      <b>Making Decisions</b>
+    </div>    
+      <p>Python offers lots of operators to make comparisons:
+        <ul>
+        <li>Less than is &lt;</li>
+        <li>Greater than is ></li>
+        <li>Less than or equal is &lt;=</li> 
+        <li>Not equal is !=</li>
+        <li>Equality comparison is == because assignment is =</li>
+        </ul>
+
+    <div class="concept-title">
+      <b>IF</b>
+    </div>
+      <p>We use IF to make comparisons.
+        <br>
+        <span class="tab">if &lt;TestExpression&gt;</span><br>
+        <span class="tab3">&lt;block&gt;</span><br>
+        <span class="tab2">def absolute(x): <span class="tab">  ***defines the procedure 'absolute' and takes 1 input which is a number***</span></span><br>
+       
+        <span class="tab3">if x&lt;0: <span class="tab3">      ***inside the body of 'absolute' we'll use an IF statement to test if the value of 'X' is less than 0***</span></span><br>
+       
+        <span class="tab3">x=-x   <span class="tab4">   ***this is the block, it changes the value of 'X' to '-X'***</span></span><br>
+       
+        <span class="tab3">return x  <span class="tab3">  <i>***gives us the absolute value of the number that is passed in***</i></span></span><br>
+
+    <div class="concept-title">
+      <b>OR</b>
+    </div>
+      <p>&lt;1st_Expression&gt; or &lt;2nd_Expression&gt;<br>
+        If the first expression evaluates to True, the value is True and the second expression is not evaluated.
+      <br>
+        If the first expression is false, then the second expression is evaluated.
+        <p>
+        Example 1
+        <p>
+        <span class="tab">def is_friend(name):</span><br>
+        <span class="tab3">return name[0] == 'D' or name[0] == 'R' <span class="tab2">      ***compares the first field of two expressions***</span></span><br>
+        <span class="tab2">print True or False</span><br>
+       <p>
+        Example 2
+        <p>
+        <span class="tab">def is_friend(name):</span><br>
+        <span class="tab3">return name[0] == 'D' or name[0] == 'R'</span><br>
+        <span class="tab">print True or False</span><br>
+        <p>
+        <span class="tab">def biggest(a,b,c):</span><br>
+        <span class="tab2">if a>b:</span><br>
+        <span class="tab3">if a>c:  <span class="tab3">  <i>***indented will allow it to be part of the comparison***</i></span></span><br>
+        <span class="tab4">return a</span><br>
+        <span class="tab3">else:</span><br>
+        <span class="tab4">return c</span><br>
+        <span class="tab2">else: <span class="tab4">  <i>***this indentation matches the first line***</i></span></span><br>
+        <span class="tab3">if b&gt;c:</span><br>
+        <span class="tab4">return b</span><br>
+        <span class="tab3">else:</span><br>
+        <span class="tab4">return c</span><br>
+        <br>
+
+    <div class="concept-title">
+      <b>Loops</b>
+    </div>
+      <br>
+        <span class="tab">while &lt;TestExpression&gt;:</span><br>
+        <span class="tab3">&lt;block&gt;<span class="tab">  ***test over and over until false***</span></span><br>
+        <br>
+        <span class="tab">if &lt;TestExpression&gt;:</span><br>
+        <span class="tab3">&lt;block&gt;<span class="tab">  ***0 or 1 times***</span></span><br>
+       <p>
+        Example
+        <p>
+        def print_numbers(n):
+        <br>
+        <span class="tab">i=0 <span class="tab3">  <i>***initalize the variable 'i'***</i></span></span><br>  
+        <span class="tab">while i&lt;10:<span class="tab">  <i>***while and the test expression***</i></span></span><br> 
+        <span class="tab2">print i<span class="tab3">  <i>***if expression is true then enter the block***</i></span></span><br>  
+        <span class="tab2">i=i+1<span class="tab3">  <i>***this is the assigment use if expression is True***</i></span></span><br>  
+        <span class="tab4"><i>***if false then start the next expression in that indentation***</i></span><br>
+  
+    <div class="session">
+      <h2>Structured Data: Lists and For Loops</h2>
+    </div>
+    
+    <div class="concept-title">
+      <p><b>Lists</b> - a new way to store data in a more structured object</p>
+      <p><b>For Loops</b> - new type of loop to iterate over structured data</p>
+      <p><b>Structured Data:</b>
+    </div>    
+        <ul>
+        <li>String data type - a sequence of ONLY characters (surrounded by single or double quotes)</li>
+        <li>List data type - sequence of ANYTHING numbers, characters, other lists!!!  Use square brackets</li>
+      </ul>
+
+        <p>
+        Example 1
+        <p>
+        <span class="tab2">days_in_month = [31,28,31,30,31,30,31,31,30,31,30,31]</span><br>
+        <span class="tab2">def how_many_days(month):</span><br>
+        <span class="tab3">return days_in_month[month-1]</span><br>
+        <span class="tab2">print how_many_days(1)</span><br>
+       <p>
+
+      <b>Nested Lists</b>
+      <p>
+        Example of characters and numbers:
+        <p>
+        <span class="tab2">mixed up = ['apple', 3, 'oranges', 27, [1,2, ['alpha', 'beta']]]</span><br>
+
+    
+    <p><b>Mutations</b><p>
+        <ul>
+          <li>Only supported by Lists, not Strings</li>
+          <li>Lists support mutations</li>
+          <li>Mutations allow you to modify a value in the variable</li>
+        </ul>
+
+    <p><b>Aliasing</b> - You can assign different names to a Variable</p>
+
+
+    <div class="session">
+      <h2>List Operations</h2>
+    </div>
+   
+   <div class="concept-title">
+    <p><b>Append</b> - updates a list with a new element</p>
+   </div>
+
+    <p><b>Plus</b> - similar to concatenation for strings.  It doesn't mutate but it produces a new list</p>
+
+
+    <p><b>Len</b> - all elements are counted</p>
+
+    <p><b>Length and Plus</b> - stands for length and outputs the number of elements in the input</p>
+
+    <p><b>Length and Append</b> - elements and appended lists are counted (elements inside the list aren't counted)</p>
+
+    <div class="session">
+      <h2>Loops on Lists</h2>
+    </div>
+
+    <div class="concept-title">
+    <b>While Loops</b>
+  </div>
+    <br>
+    <span class="tab">while &lt;Test&gt;:</span>
+        <span class="tab">  ***'while' followed by a 'test' expression, if true then execute the following block statements***</span><br>
+        <span class="tab">&lt;block&gt;:</span><span class="tab">  ***keep executing the block as long as the 'test' is true***</span><br>
+        <p>
+        Example
+        <p>
+        def print_all_elements(p):
+        <br>
+        <span class="tab">i=0 <span class="tab4">  <i>***introduce a variable named 'i' and initialize it's value to '0'***</i></span></span><br>  
+        <span class="tab">while i&lt;len(p)-1:<span class="tab">  <i>***use 'i' to index through the elements of that list***</i></span></span><br> 
+        <span class="tab2">print p[i]<span class="tab3">  <i>***for each element we'll print out that value***</i></span></span><br>  
+        <span class="tab2">i-i+1<span class="tab4">  <i>***increase 'i' + 1***</i></span></span><br>  
+
+    <p><b>For Loops</b></p>
+        for &lt;name&gt; in &lt;list&gt;:
+        <span class="tab2">  ***similar to While and If statement***</span>
+        <br>
+        <span class="tab"></span>&lt;block&gt;<br>
+        def print_all_elements(p):<br>
+        <span class="tab">for e in p:</span><br> 
+        <span class="tab2">print e</span>
+        <p>
+        Example
+        <p>
+        def sum_list(x):<span class="tab4"><i>***define sum_list with 'x'***</i></span>
+        <br>
+        <span class="tab">tracker = 0<span class="tab4">  <i>***use the variable 'tracker' to keep track of the sum so far***</i></span></span><br>  
+        <span class="tab">for y in x:<span class="tab4">  <i>***use a for loop to go through the elements of 'x'***</i></span></span><br> 
+        <span class="tab2">result = result + y<span class="tab2">  <i>***add that value to 'result'***</i></span></span><br>  
+        <span class="tab">return result</span>
+
   </body>
 </html>
