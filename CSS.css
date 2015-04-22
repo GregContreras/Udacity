@@ -1,6 +1,7 @@
+
 h1 {
 	text-align: center;
-	color: #294860;;
+	color: #294860;
 }
 
 body {
@@ -53,4 +54,20 @@ h2 {
 
 .bold {
 	font-weight: bold;
+}
+
+.tab{
+  margin-left:40px;
+}
+
+.tab2{
+  margin-left:60px;
+}
+
+.tab3{
+  margin-left:80px;
+}
+
+.tab4{
+  margin-left:120px;
 }
