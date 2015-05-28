@@ -1,498 +1,437 @@
-<!DOCTYPE html>
-<!--My First Web Page-->
-<html>
-  <head>
-   <meta charset="UTF-8">
-   <link rel="stylesheet" type="text/css" href="css.css">
-    <title>Intro to Programming - Project I</title> 
-  </head>
-  <body>
-    <div class="h1">  
-      <h1>STAGE 1: MAKE YOUR WEB PAGE</h1>
-    </div>
-    <div class="concept-description">
-    </div>
-
-    <div class="session">
-      <h2>Work Session 1: HTML</h2>
-    </div>
-    
-    <div class="concept-title">
-      <b>TERMINOLOGY</b>
-    </div>  
-    
-    <div class="concept-description">
-      <ul>
-          <li><b>Text content</b> - what you see</li>
-          <li><b>Markup</b> - what it looks like</li>
-          <li><b>References</b>- refer to other documents -images and videos</li>
-          <li><b>Links</b> - connect to other locations</li>
-      </ul>
-      <ul>
-          <li><b>Tag</b> - An HTML tag is always contained with angled brackets</li>
-          <li><b>Element</b> - An HTML element refers to everything within a set of opening and closing tags</li>
-          <li><b>Attribute</b> - This is a property of an HTML element</li>
-      </ul>
-      <ul>
-          <li>The <b>"b"</b> tag is Bold</li>
-          <li>The <b>"em"</b> tag is Emphasis is italics</li><li>Hyperlinks use <b>"anchors"</b> are for connecting links with an HREF attribue</li>
-          <li>Images use <b>"img"</b> to connect pictures with an SRC attribute (also gives the pic a name)</li>
-          <li>Line breaks <b>"br"</b>add a an empty row called a void.: INLINE ends a line</li>
-          <li>A paragraph <b>"p"</b> is used for content and will not leave a void: BLOCK contains height and length</li>
-          <li>The <b>"span"</b>equals inline</li>
-          <li>The infamous<b>"div"</b> createsa a block.  This is how you separate sections on a page.</li>
-      </ul>
-      <ul>
-          <li>Use <b>"doctype</B> to define the type of document being used</li>
-          <li>The <b>"html"</b> tells the browser how to interpret the page/li>
-          <li>The <b>"head"</b> tag contains Metadata, Javascript and CSS. It  also contains <b>"title"</b> which displays the page name</li>
-          <li>The <b>"body"</b> tag holds everything else on your web page which is our main focus!</li>
-      </ul>
-    </div>
+<!DOCTYPE HTML>
+<META charset="UTF-8">    <LINK href="index_files/css.css" rel="stylesheet" 
+type="text/css">     <TITLE>Intro to Programming - Project I</TITLE>   
+<META name="GENERATOR" content="MSHTML 11.00.9600.17801"></HEAD>   
+<BODY>
+<DIV class="h1">
+<H1>STAGE 1: MAKE YOUR WEB PAGE</H1></DIV>
+<DIV class="concept-description"></DIV>
+<DIV class="session">
+<H2>Work Session 1: HTML</H2></DIV>
+<DIV class="concept-title"><B>TERMINOLOGY</B>     </DIV>
+<DIV class="concept-description">
+<UL>
+  <LI><B>Text content</B> - what you see</LI>
+  <LI><B>Markup</B> - what it looks like</LI>
+  <LI><B>References</B>- refer to other documents -images and videos</LI>
+  <LI><B>Links</B> - connect to other locations</LI></UL>
+<UL>
+  <LI><B>Tag</B> - An HTML tag is always contained with angled brackets</LI>
+  <LI><B>Element</B> - An HTML element refers to everything within a set of 
+  opening and closing tags</LI>
+  <LI><B>Attribute</B> - This is a property of an HTML element</LI></UL>
+<UL>
+  <LI>The <B>"b"</B> tag is Bold</LI>
+  <LI>The <B>"em"</B> tag is Emphasis is italics</LI>
+  <LI>Hyperlinks use <B>"anchors"</B> are for connecting links with an HREF 
+  attribue</LI>
+  <LI>Images use <B>"img"</B> to connect pictures with an SRC attribute (also 
+  gives the pic a name)</LI>
+  <LI>Line breaks <B>"br"</B>add a an empty row called a void.: INLINE ends a 
+  line</LI>
+  <LI>A paragraph <B>"p"</B> is used for content and will not leave a void: 
+  BLOCK contains height and length</LI>
+  <LI>The <B>"span"</B>equals inline</LI>
+  <LI>The infamous<B>"div"</B> createsa a block.  This is how you separate 
+  sections on a page.</LI></UL>
+<UL>
+  <LI>Use <B>"doctype</B> to define the type of document being used</LI>
+  <LI>The <B>"html"</B> tells the browser how to interpret the page/li&gt;       
       
-    <div class="concept-title">
-      <b>CSS</b>
-    </div> 
-    
-    <div class="concept-description">  
-      <p>
-        HTML stands for <em>Hypertext Markup Language.</em> Its a language with syntax and rules.  HTML documents form the majority of the content on the web.
-        HTML documents contain <em>text content</em> which describes
-        "what you see" and <em>markup</em> which describes "how it
-        looks". <a href="http://www.w3schools.com/html/default.asp">w3schools.com</a>
-        has every reference needed.
-      </p>
-    </div>
-    
-    <div>
-      <p>
-        <b>Tags and Elements</b>
-      </p>
-      <p>
-        HTML documents are made of HTML <b>elements</b>. When
-        writing HTML, we tell browsers the type of each element
-        by using HTML <b>tags</b>.
-        <br>
-        <img src="http://www.xstandard.com/94E7EECB-E7CF-4122-A6AF-8F817AA53C78/html-layout-xhtml-content.gif" alt="Element Example"> 
-      </p>
-    </div>
-
-    <div class="concept-title">
-       <b>DOM</b>
-    </div>  
-    
-    <div>    
-        The DOM stands for Document Object Model.  The Document Object Model is a platform- and language-neutral interface that will allow programs and scripts to dynamically access and update the content, structure and style of documents. The document can be further processed and the results of that processing can be incorporated back into the presented page.
-        <br>
-        To render a document such as an HTML page, most web browsers use an internal model similar to the DOM. The nodes of every document are organized in a tree structure, called the DOM tree, with topmost node named "Document object". When an HTML page is rendered in browsers, the browser downloads the HTML into local memory and automatically parses it to display the page on screen. 
-        <br>
-        <br>
-        <img src="http://www.w3schools.com/js/pic_htmltree.gif" alt="DOM Tree"> 
-    </div>
-
-    <div class="concept-title">
-        <b>Inline vs Block Elements</b>
-   </div>
+  <LI>The <B>"head"</B> tag contains Metadata, Javascript and CSS. It  also 
+  contains <B>"title"</B> which displays the page name</LI>
+  <LI>The <B>"body"</B> tag holds everything else on your web page which is our 
+  main focus!</LI></UL></DIV>
+<DIV class="concept-title"><B>CSS</B>     </DIV>
+<DIV class="concept-description">
+<P>        HTML stands for <EM>Hypertext Markup Language.</EM> Its a language 
+with syntax and rules.  HTML documents form the majority of the content on the 
+web.        HTML documents contain <EM>text content</EM> which describes        
+"what you see" and <EM>markup</EM> which describes "how it        looks". <A 
+href="http://www.w3schools.com/html/default.asp">w3schools.com</A>        has 
+every reference needed.       </P></DIV>
+<DIV>
+<P><B>Tags and Elements</B>       </P>
+<P>        HTML documents are made of HTML <B>elements</B>. When        writing 
+HTML, we tell browsers the type of each element        by using HTML 
+<B>tags</B>.         <BR><IMG alt="Element Example" src="index_files/html-layout-xhtml-content.gif"> 
+      </P></DIV>
+<DIV class="concept-title"><B>DOM</B>     </DIV>
+<DIV>            The DOM stands for Document Object Model.  The Document Object 
+Model is a platform- and language-neutral interface that will allow programs and 
+scripts to dynamically access and update the content, structure and style of 
+documents. The document can be further processed and the results of that 
+processing can be incorporated back into the presented page.         <BR>        
+To render a document such as an HTML page, most web browsers use an internal 
+model similar to the DOM. The nodes of every document are organized in a tree 
+structure, called the DOM tree, with topmost node named "Document object". When 
+an HTML page is rendered in browsers, the browser downloads the HTML into local 
+memory and automatically parses it to display the page on screen.          
+<BR><BR><IMG alt="Dom" src="index_files/pic_htmltree.gif">     </DIV>
+<DIV class="concept-title"><B>Inline vs Block Elements</B>    </DIV>
+<DIV>          HTML elements are either <B>inline</B> or <B>block</B>.        
+Block elements form an "invisible box" around the        content inside of them. 
+ All elements are rectangular.     </DIV>
+<DIV class="session">
+<H3>Work Session 2: Creating a Structured Document with HTML</H3></DIV>
+<DIV class="concept-title"><B>Developer Tools (in the Browser)</B>     </DIV>    
+        HTML elements are either <B>inline</B> or <B>block</B>.        Block 
+elements form an "invisible box" around the        content inside of them.       
   
-    <div>  
-        HTML elements are either <b>inline</b> or <b>block</b>.
-        Block elements form an "invisible box" around the
-        content inside of them.  All elements are rectangular.
-    </div>
-
-    <div class="session">
-      <h3>Work Session 2: Creating a Structured Document with HTML</h3>
-    </div>
-     
+<DIV class="concept-title"><B>Search and Replace</B>     </DIV>
+<P>          You can also think about CSS as a search and replace tool: you 
+identify a class or a tag of the element you want to find (or match, in CSS 
+terminology), and then what you want to do with it, or what property values to 
+replace with different one       </P>
+<DIV class="concept-title"><B>Order Matters</B>     </DIV>        It also 
+matters where you define the rules and in what order they are applied. Styles 
+can be defined in different places and are applied in the following order, with 
+definitions further down the list overwriting previous definitions:             
+<UL>
+  <LI>the default style of a browser (different browsers have slightly different 
+  styles)</LI>
+  <LI>stylesheet in a separate file (this is what you will be mostly using)</LI>
+  <LI>stylesheet inside HTML (this can be done for small projects but is not 
+  ideal)</LI>
+  <LI>inline style in an element (this can also be done but should be 
+  avoided)</LI></UL>
+<DIV class="concept-title"><B>Specifics Matter</B>     </DIV>
+<P>        "Cascading" means that rules are applied not only to the elements 
+they directly match, but also to all of those elements' child elements. However, 
+if a child element has multiple, overlapping rules defined for it, the more 
+specific rule takes effect.       </P>
+<DIV class="concept-title"><B>Repetition</B>     </DIV>
+<P>         One of the principles of programming is "Don't Repeat Yourself" 
+(DRY).  Repetition only clutters your code and makes it difficult for the next 
+programmer to debug it.         Selectors are what allows you to target specifc 
+HTML elements and apply style to them.  By doing this, you can condense your CSS 
+to avoid unnecessary repetition, which waste time, and time is precious.         
+</P>
+<DIV class="session">
+<H3>Work Session 3: Adding CSS Style to HTML Structure</H3></DIV>
+<DIV class="concept-title"><B>The Box Model</B>     </DIV>
+<P>      HTML elements are boxes with the following components:         <BR>1. 
+Margin - transparent space between boxes around Border         <BR>2. Border - 
+outside of Padding and Content (uses color property of the box)         <BR>3. 
+Padding - space inside box to protect Content (uses background color of the box) 
+        <BR>4. Content - Image or Text, sits at center protected by other layers 
+      </P>
+<DIV class="concept-title"><B>Box Sizing</B>     </DIV>
+<P>      There are two techniques to size boxes         <BR>1. Set sizes in 
+terms of percents rather than values         <BR>2. Easy layout codes 
+(box-sizing: border-box;)       </P>
+<DIV class="concept-title"><B>Adapt to all Browsers</B>      </DIV>
+<UL>
+  <LI><B>Chome</B> -webkit-box-sizing: border-box;</LI>
+  <LI><B>Firefox</B>  -moz-box-sizing: border-box;</LI>
+  <LI><B>"IE"</B> -ms-box-sizing: border-box;</LI></UL>
+<DIV class="concept-title"><B>Box Positioning</B>     </DIV>
+<P>        Divs are block elements (as opposed to Inline) and take up the entire 
+page width by default.  Use the Flex Box code to allow Divs to appear next to 
+each other.       </P>
+<DIV class="concept-title"><B>Flex Box</B>      </DIV>
+<DIV>        A flexible box to lay out, align and distribute space among items 
+in a div or container.         
+<UL>
+  <LI><B>Flex Box Example</B> element.style {display: flex;}</LI></UL></DIV><!--Project 2 begins--> 
     
-    <div class="concept-title">
-        <b>Developer Tools (in the Browser)</b>
-    </div>
-    
-        HTML elements are either <b>inline</b> or <b>block</b>.
-        Block elements form an "invisible box" around the
-        content inside of them.
-    
-    <div class="concept-title">
-        <b>Search and Replace</b>
-    </div> 
-    
-      <p>
-          You can also think about CSS as a search and replace tool: you identify a class or a tag of the element you want to find (or match, in CSS terminology), and then what you want to do with it, or what property values to replace with different one
-      </p>
+<DIV class="h1"><BR>
+<H1>STAGE 2: AUTOMATE YOUR PAGE</H1></DIV>
+<DIV class="concept-description"></DIV>
+<DIV class="session">
+<H2>Intro to Serious Programming</H2></DIV>
+<DIV class="concept-title"><B>What is Programming</B>     </DIV>
+<P>        Computers are machines that must be told what to do.  As a programmer 
+your job will be to write programs to tell the computer what to do.         <BR> 
+       Programming is the core of computer science.  A program describes the 
+sequence of steps to complete an action.            <BR>        A programming 
+language is a rule based set of instructions.  The computer uses a compiler to 
+interpret this and execute it.  Examples of programming languages are Python, 
+C++, JavaScript and Ruby on Rails.         <BR>        Python will be taught in 
+this class.  Once the code is written, it must run through a Python Interpreter 
+to covert it into computer instructions.         <BR>        If programming 
+grammar is not followed, the interpreter will return a syntax error; this means 
+the structure of the code is inconsistent with the rules of the programming 
+language. Backus-Naur Form is used to describe a programming language in a 
+simple and concise manner.         <BR>
+<DIV class="concept-title"><B>Expressions</B>      </DIV>
+<P>        An expression is something that has a value. Expressions are not to 
+be confused with equations. Below are some examples of expressions in Python:    
+   </P>
+<UL>
+  <LI>3</LI>
+  <LI>1 + 1</LI>
+  <LI>7 * 7 * 24 * 60</LI></UL>
+<DIV class="concept-title"><B>Debugging</B>     </DIV>
+<P>Debugging  is a methodical process of finding and reducing the number of 
+defects in a computer program.  The trick is to develop a way of finding and 
+fixing them.       
+<P>
+<DIV class="session">
+<H2>Variables and Strings</H2></DIV>
+<DIV class="concept-title"><B>Variables</B>     </DIV>
+<P>
+<UL>
+  <LI>What is a variable?  A variable gives a name to a value.           <BR>If 
+  the variable 'X'=1 then the Python statement is:         <BR>print X + X, then 
+  the result would be '2'.</LI>
+  <LI>What does it mean to assign a value to a variable?</LI>
+  <LI>What is the difference between what the equals = means in math versus in 
+  programming.</LI>
+  <LI>What's the difference between this: 2 + 3 = 5 and this: my_variable = 
+  5?</LI></UL>
+<DIV class="concept-title"><B>Strings</B>     </DIV>
+<P>        A string is a sequence of charactrers surrounded by quotes.     
+<DIV class="session">
+<H2>Input-&gt;Function-&gt;Output</H2></DIV>
+<P>A function is a piece of code in a program. The function performs a specific 
+task. The advantages of using functions are:          
+<UL>
+  <LI>Reducing duplication of code</LI>
+  <LI>Decomposing complex problems into simpler pieces</LI>
+  <LI>Improving clarity of the code</LI>
+  <LI>Reuse of code</LI>
+  <LI>Information hiding</LI></UL>        Functions in Python are first-class 
+citizens. It means that functions have equal status with other objects in 
+Python. Functions can be assigned to variables, stored in collections or passed 
+as arguments. This brings additional flexibility to the language.       
+<P>
+<DIV class="concept-title"><B>Input</B>         <BR><B><I>On the first line of 
+your function definition..</I></B>        You must begin the line with def 
+(lowercase).        After def you must give a function name (in this case it 
+will be udacify.        Next, you must have a set of parentheses with the 
+required parameters inside.        The line must end with a : colon.      </DIV>
+<DIV class="concept-title"><B>Function</B>         <BR><B><I>In the body of the 
+function</I></B>        Every line in the function must be indented.        If 
+you want your function to produce output, it must end with a return statement.   
+      <BR><B><I>To "call" the function...</I></B>        "Calling" a function 
+just means using it. You do this by writing:        The function name, followed 
+by...        ...an open paren (, followed by...        ...the values for the 
+required parameters, followed by...     </DIV>
+<DIV class="concept-title"><B>Output</B>         <BR><B><I>To display the 
+results of a function call.</I></B>        Don't forget to include the print 
+command before you call your function if you want to display the result on your 
+screen!       </DIV>
+<DIV class="session">
+<H2>Decisions and Repetition: If and While</H2></DIV>
+<DIV class="concept-title"><B>Making Decisions</B>     </DIV>
+<P>Python offers lots of operators to make comparisons:         
+<UL>
+  <LI>Less than is &lt;</LI>
+  <LI>Greater than is &gt;</LI>
+  <LI>Less than or equal is &lt;=</LI>
+  <LI>Not equal is !=</LI>
+  <LI>Equality comparison is == because assignment is =</LI></UL>
+<DIV class="concept-title"><B>IF</B>     </DIV>
+<P>We use IF to make comparisons.         <BR><SPAN class="tab">if 
+&lt;TestExpression&gt;</SPAN><BR><SPAN 
+class="tab3">&lt;block&gt;</SPAN><BR><SPAN class="tab2">def absolute(x): <SPAN 
+class="tab">  ***defines the procedure 'absolute' and takes 1 input which is a 
+number***</SPAN></SPAN><BR><SPAN class="tab3">if x&lt;0: <SPAN class="tab3">     
+ ***inside the body of 'absolute' we'll use an IF statement to test if the value 
+of 'X' is less than 0***</SPAN></SPAN><BR><SPAN class="tab3">x=-x   <SPAN class="tab4"> 
+  ***this is the block, it changes the value of 'X' to 
+'-X'***</SPAN></SPAN><BR><SPAN class="tab3">return x  <SPAN 
+class="tab3"><I>***gives us the absolute value of the number that is passed 
+in***</I></SPAN></SPAN><BR>
+<DIV class="concept-title"><B>OR</B>     </DIV>
+<P>&lt;1st_Expression&gt; or &lt;2nd_Expression&gt;<BR>        If the first 
+expression evaluates to True, the value is True and the second expression is not 
+evaluated.       <BR>        If the first expression is false, then the second 
+expression is evaluated.         
+<P>        Example 1         
+<P><SPAN class="tab">def is_friend(name):</SPAN><BR><SPAN class="tab3">return 
+name[0] == 'D' or name[0] == 'R' <SPAN class="tab2">      ***compares the first 
+field of two expressions***</SPAN></SPAN><BR><SPAN class="tab2">print True or 
+False</SPAN><BR>
+<P>        Example 2         
+<P><SPAN class="tab">def is_friend(name):</SPAN><BR><SPAN class="tab3">return 
+name[0] == 'D' or name[0] == 'R'</SPAN><BR><SPAN class="tab">print True or 
+False</SPAN><BR>
+<P><SPAN class="tab">def biggest(a,b,c):</SPAN><BR><SPAN class="tab2">if 
+a&gt;b:</SPAN><BR><SPAN class="tab3">if a&gt;c:  <SPAN 
+class="tab3"><I>***indented will allow it to be part of the 
+comparison***</I></SPAN></SPAN><BR><SPAN class="tab4">return a</SPAN><BR><SPAN 
+class="tab3">else:</SPAN><BR><SPAN class="tab4">return c</SPAN><BR><SPAN class="tab2">else: 
+<SPAN class="tab4"><I>***this indentation matches the first 
+line***</I></SPAN></SPAN><BR><SPAN class="tab3">if b&gt;c:</SPAN><BR><SPAN 
+class="tab4">return b</SPAN><BR><SPAN class="tab3">else:</SPAN><BR><SPAN class="tab4">return 
+c</SPAN><BR><BR>
+<DIV class="concept-title"><B>Loops</B>     </DIV><BR><SPAN class="tab">while 
+&lt;TestExpression&gt;:</SPAN><BR><SPAN class="tab3">&lt;block&gt;<SPAN class="tab"> 
+ ***test over and over until false***</SPAN></SPAN><BR><BR><SPAN class="tab">if 
+&lt;TestExpression&gt;:</SPAN><BR><SPAN class="tab3">&lt;block&gt;<SPAN class="tab"> 
+ ***0 or 1 times***</SPAN></SPAN><BR>
+<P>        Example         
+<P>        def print_numbers(n):         <BR><SPAN class="tab">i=0 <SPAN class="tab3"><I>***initalize 
+the variable 'i'***</I></SPAN></SPAN><BR><SPAN class="tab">while i&lt;10:<SPAN 
+class="tab"><I>***while and the test expression***</I></SPAN></SPAN><BR><SPAN 
+class="tab2">print i<SPAN class="tab3"><I>***if expression is true then enter 
+the block***</I></SPAN></SPAN><BR><SPAN class="tab2">i=i+1<SPAN 
+class="tab3"><I>***this is the assigment use if expression is 
+True***</I></SPAN></SPAN><BR><SPAN class="tab4"><I>***if false then start the 
+next expression in that indentation***</I></SPAN><BR>
+<DIV class="session">
+<H2>Structured Data: Lists and For Loops</H2></DIV>
+<DIV class="concept-title">
+<P><B>Lists</B> - a new way to store data in a more structured object</P>
+<P><B>For Loops</B> - new type of loop to iterate over structured data</P>
+<P><B>Structured Data:</B>     </P></DIV>
+<UL>
+  <LI>String data type - a sequence of ONLY characters (surrounded by single or 
+  double quotes)</LI>
+  <LI>List data type - sequence of ANYTHING numbers, characters, other lists!!!  
+  Use square brackets</LI></UL>
+<P>        Example 1         
+<P><SPAN class="tab2">days_in_month = 
+[31,28,31,30,31,30,31,31,30,31,30,31]</SPAN><BR><SPAN class="tab2">def 
+how_many_days(month):</SPAN><BR><SPAN class="tab3">return 
+days_in_month[month-1]</SPAN><BR><SPAN class="tab2">print 
+how_many_days(1)</SPAN><BR>
+<P><B>Nested Lists</B>       
+<P>        Example of characters and numbers:         
+<P><SPAN class="tab2">mixed up = ['apple', 3, 'oranges', 27, [1,2, ['alpha', 
+'beta']]]</SPAN><BR>
+<P><B>Mutations</B>
+<P>
+<UL>
+  <LI>Only supported by Lists, not Strings</LI>
+  <LI>Lists support mutations</LI>
+  <LI>Mutations allow you to modify a value in the variable</LI></UL>
+<P><B>Aliasing</B> - You can assign different names to a Variable</P>
+<DIV class="session">
+<H2>List Operations</H2></DIV>
+<DIV class="concept-title">
+<P><B>Append</B> - updates a list with a new element</P></DIV>
+<P><B>Plus</B> - similar to concatenation for strings.  It doesn't mutate but it 
+produces a new list</P>
+<P><B>Len</B> - all elements are counted</P>
+<P><B>Length and Plus</B> - stands for length and outputs the number of elements 
+in the input</P>
+<P><B>Length and Append</B> - elements and appended lists are counted (elements 
+inside the list aren't counted)</P>
+<DIV class="session">
+<H2>Loops on Lists</H2></DIV>
+<DIV class="concept-title"><B>While Loops</B>   </DIV><BR><SPAN 
+class="tab">while &lt;Test&gt;:</SPAN>         <SPAN class="tab">  ***'while' 
+followed by a 'test' expression, if true then execute the following block 
+statements***</SPAN><BR><SPAN class="tab">&lt;block&gt;:</SPAN><SPAN 
+class="tab">  ***keep executing the block as long as the 'test' is 
+true***</SPAN><BR>
+<P>        Example         
+<P>        def print_all_elements(p):         <BR><SPAN class="tab">i=0 <SPAN 
+class="tab4"><I>***introduce a variable named 'i' and initialize it's value to 
+'0'***</I></SPAN></SPAN><BR><SPAN class="tab">while i&lt;len(p)-1:<SPAN class="tab"><I>***use 
+'i' to index through the elements of that list***</I></SPAN></SPAN><BR><SPAN 
+class="tab2">print p[i]<SPAN class="tab3"><I>***for each element we'll print out 
+that value***</I></SPAN></SPAN><BR><SPAN class="tab2">i-i+1<SPAN 
+class="tab4"><I>***increase 'i' + 1***</I></SPAN></SPAN><BR>
+<P><B>For Loops</B></P>        for &lt;name&gt; in &lt;list&gt;:         <SPAN 
+class="tab2">  ***similar to While and If statement***</SPAN>         <BR><SPAN 
+class="tab"></SPAN>&lt;block&gt;<BR>        def print_all_elements(p):<BR><SPAN 
+class="tab">for e in p:</SPAN><BR><SPAN class="tab2">print e</SPAN>         
+<P>        Example         
+<P>        def sum_list(x):<SPAN class="tab4"><I>***define sum_list with 
+'x'***</I></SPAN>         <BR><SPAN class="tab">tracker = 0<SPAN 
+class="tab4"><I>***use the variable 'tracker' to keep track of the sum so 
+far***</I></SPAN></SPAN><BR><SPAN class="tab">for y in x:<SPAN 
+class="tab4"><I>***use a for loop to go through the elements of 
+'x'***</I></SPAN></SPAN><BR><SPAN class="tab2">result = result + y<SPAN class="tab2"><I>***add 
+that value to 'result'***</I></SPAN></SPAN><BR><SPAN class="tab">return 
+result</SPAN> <!--Project 3 begins-->     
+<DIV class="h1"><BR>
+<H1>STAGE 2: PROGRAM WITH OBJECTS</H1></DIV>
+<DIV class="concept-description"></DIV>
+<DIV class="session">
+<H2>FUNCTIONS</H2></DIV>
+<DIV class="concept-title"><B>What is Abstraction</B>     </DIV>
+<P>        The hiding of detail behind documentation.  Programmers write code in 
+the Python language which calls complex levels of functionality behind the 
+scenes.       
 
-    <div class="concept-title">
-      <b>Order Matters</b>
-    </div>
+<DIV class="concept-title"><B>Why use Functions</B>     </DIV>
+Functions do 3 things:
+<OL>
+  <LI>They name pieces of code the way variables name strings and numbers.</LI>
+  <LI>They take arguments the way your scripts take argv.</LI>
+  <LI>Using 1 and 2 they let you make your own "mini-scripts" or "tiny commands."</LI></OL>
+<P>        So far we've been writing a lot of functions. This is essentially 
+writing code one at a time.       
+<P>        some_module.py<SPAN class="tab4"><I>***We create an empty python 
+file***</I></SPAN>         <BR><SPAN class="tab">def do.this<SPAN 
+class="tab4"><I>***Then we add a function***</I></SPAN></SPAN><BR><SPAN class="tab">def 
+do.that<SPAN class="tab4"><I>***Then we add another 
+function***</I></SPAN></SPAN><BR>         return result  
+<DIV class="concept-title"><B>Python Standard Library Functions</B>     </DIV>
+<BR><IMG alt="Python Library" src="index_files/PythonStandardLibraryFunctions.gif">
+<P><B>Webbrowser</B> - This module provides a high-level interface to allow displaying Web-based documents to users</P>
+<P><B>Time</B> - This module provides various time-related functions</P>
+<p>Project example: Take a Break
+This code will use the Time and Webbrowser modules and uses the follwoing funtions:</p>
+<UL>
+  <LI>time.sleep - will suspend execution for a given number of seconds</LI>
+  <LI>time.ctime - gives the current time of the computer</LI></UL>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S2MI9AzacRs" style="border:0;" allowfullscreen></iframe>
 
-        It also matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, with definitions further down the list overwriting previous definitions:
-      
-      <ul>
-        <li>the default style of a browser (different browsers have slightly different styles)</li>
-        <li>stylesheet in a separate file (this is what you will be mostly using)</li>
-        <li>stylesheet inside HTML (this can be done for small projects but is not ideal)</li>
-        <li>inline style in an element (this can also be done but should be avoided)</li>
-      </ul>
-
-    <div class="concept-title">
-      <b>Specifics Matter</b>
-    </div>
-
-      <p>
-        "Cascading" means that rules are applied not only to the elements they directly match, but also to all of those elements' child elements. However, if a child element has multiple, overlapping rules defined for it, the more specific rule takes effect.
-      </p>
-
-    <div class="concept-title">
-      <b>Repetition</b>
-    </div>
-
-      <p>
-         One of the principles of programming is "Don't Repeat Yourself" (DRY).  Repetition only clutters your code and makes it difficult for the next programmer to debug it.
-         Selectors are what allows you to target specifc HTML elements and apply style to them.  By doing this, you can condense your CSS to avoid unnecessary repetition, which waste time, and time is precious.  
-      </p>
-    <div class="session">
-      <h3>Work Session 3: Adding CSS Style to HTML Structure</h3>
-    </div>
-
-    <div class="concept-title">
-      <b>The Box Model</b>
-    </div>
-
-      <p>
-      HTML elements are boxes with the following components:
-        <br>1. Margin - transparent space between boxes around Border
-        <br>2. Border - outside of Padding and Content (uses color property of the box)
-        <br>3. Padding - space inside box to protect Content (uses background color of the box)
-        <br>4. Content - Image or Text, sits at center protected by other layers
-      </p>
-       
-    <div class="concept-title">
-      <b>Box Sizing</b>
-    </div>
-
-      <p>
-      There are two techniques to size boxes
-        <br>1. Set sizes in terms of percents rather than values
-        <br>2. Easy layout codes (box-sizing: border-box;)
-      </p>
-
-      <div class="concept-title">
-        <b>Adapt to all Browsers</b> 
-     </div>
-
-      <ul>
-        <li><b>Chome</B> -webkit-box-sizing: border-box;</li>
-         <li><b>Firefox</b>  -moz-box-sizing: border-box;</li>
-         <li><b>"IE"</b> -ms-box-sizing: border-box;</li>
-      </ul>
-      
-    <div class="concept-title">
-      <b>Box Positioning</b>
-    </div>
-
-      <p>
-        Divs are block elements (as opposed to Inline) and take up the entire page width by default.  Use the Flex Box code to allow Divs to appear next to each other.
-      </p>
-
-    <div class="concept-title">
-      <b>Flex Box</b>
-     </div>
-
-    <div>
-        A flexible box to lay out, align and distribute space among items in a div or container.
-        <ul>
-        <li><b>Flex Box Example</b> element.style {display: flex;}</li> 
-      </ul>
-    </div>
-<!--Project 2 begins-->
-    <div class="h1">  
-      <br>
-      <h1>STAGE 2: AUTOMATE YOUR PAGE</h1>
-    </div>
-    <div class="concept-description">
-    </div>
-
-    <div class="session">
-      <h2>Intro to Serious Programming</h2>
-    </div>
-    
-    <div class="concept-title">
-      <b>What is Programming</b>
-    </div>
-      <p>
-        Computers are machines that must be told what to do.  As a programmer your job will be to write programs to tell the computer what to do.
-        <br>
-        Programming is the core of computer science.  A program describes the sequence of steps to complete an action.   
-        <br>
-        A programming language is a rule based set of instructions.  The computer uses a compiler to interpret this and execute it.  Examples of programming languages are Python, C++, JavaScript and Ruby on Rails.
-        <br>
-        Python will be taught in this class.  Once the code is written, it must run through a Python Interpreter to covert it into computer instructions.
-        <br>
-        If programming grammar is not followed, the interpreter will return a syntax error; this means the structure of the code is inconsistent with the rules of the programming language. Backus-Naur Form is used to describe a programming language in a simple and concise manner.
-        <br>
-      <div class="concept-title">
-      <b>Expressions</b>
-     </div>
-      <p>
-        An expression is something that has a value. Expressions are not to be confused with equations. Below are some examples of expressions in Python:
-      </p>
-        <ul>
-          <li>3</li>
-          <li>1 + 1</li>
-          <li>7 * 7 * 24 * 60</li>
-        </ul>
-    <div class="concept-title">
-      <b>Debugging</b>
-    </div> 
-      <p>Debugging  is a methodical process of finding and reducing the number of defects in a computer program.  The trick is to develop a way of finding and fixing them.
-      <p>
-    
-    <div class="session">
-      <h2>Variables and Strings</h2>
-    </div>
-    
-    <div class="concept-title">
-      <b>Variables</b>
-    </div>    
-      <p>
-        <ul>
-        <li>What is a variable?  A variable gives a name to a value.  
-        <br>If the variable 'X'=1 then the Python statement is:
-        <br>print X + X, then the result would be '2'.</li>
-        <li>What does it mean to assign a value to a variable?</li>
-        <li>What is the difference between what the equals = means in math versus in programming.</li> 
-        <li>What's the difference between this: 2 + 3 = 5 and this: my_variable = 5?</li>
-        </ul>
-
-    <div class="concept-title">
-      <b>Strings</b>
-    </div> 
-      <p>
-        A string is a sequence of charactrers surrounded by quotes.
-
-    <div class="session">
-      <h2>Input->Function->Output</h2>
-    </div>
-      <p>
-        A function is a piece of code in a program. The function performs a specific task. The advantages of using functions are: 
-        <ul>
-        <li>Reducing duplication of code</li>
-        <li>Decomposing complex problems into simpler pieces</li>
-        <li>Improving clarity of the code</li>
-        <li>Reuse of code</li>
-        <li>Information hiding</li>
-        </ul>
-        Functions in Python are first-class citizens. It means that functions have equal status with other objects in Python. Functions can be assigned to variables, stored in collections or passed as arguments. This brings additional flexibility to the language.
-      <p>
-    <div class="concept-title">
-      <b>Input</b>
-        <br>
-        <b><i>On the first line of your function definition..</i></b>
-        You must begin the line with def (lowercase).
-        After def you must give a function name (in this case it will be udacify.
-        Next, you must have a set of parentheses with the required parameters inside.
-        The line must end with a : colon.
-     </div>   
-    <div class="concept-title">
-      <b>Function</b>
-        <br>
-        <b><i>In the body of the function</i></b>
-        Every line in the function must be indented.
-        If you want your function to produce output, it must end with a return statement.
-        <br>
-        <b><i>To "call" the function...</i></b>
-        "Calling" a function just means using it. You do this by writing:
-        The function name, followed by...
-        ...an open paren (, followed by...
-        ...the values for the required parameters, followed by...
-    </div>    
-    <div class="concept-title">
-      <b>Output</b>
-        <br>
-        <b><i>To display the results of a function call.</i></b>
-        Don't forget to include the print command before you call your function if you want to display the result on your screen!  
-
-    </div>
-
-
-    <div class="session">
-      <h2>Decisions and Repetition: If and While</h2>
-    </div>
-    <div class="concept-title">
-      <b>Making Decisions</b>
-    </div>    
-      <p>Python offers lots of operators to make comparisons:
-        <ul>
-        <li>Less than is &lt;</li>
-        <li>Greater than is ></li>
-        <li>Less than or equal is &lt;=</li> 
-        <li>Not equal is !=</li>
-        <li>Equality comparison is == because assignment is =</li>
-        </ul>
-
-    <div class="concept-title">
-      <b>IF</b>
-    </div>
-      <p>We use IF to make comparisons.
-        <br>
-        <span class="tab">if &lt;TestExpression&gt;</span><br>
-        <span class="tab3">&lt;block&gt;</span><br>
-        <span class="tab2">def absolute(x): <span class="tab">  ***defines the procedure 'absolute' and takes 1 input which is a number***</span></span><br>
-       
-        <span class="tab3">if x&lt;0: <span class="tab3">      ***inside the body of 'absolute' we'll use an IF statement to test if the value of 'X' is less than 0***</span></span><br>
-       
-        <span class="tab3">x=-x   <span class="tab4">   ***this is the block, it changes the value of 'X' to '-X'***</span></span><br>
-       
-        <span class="tab3">return x  <span class="tab3">  <i>***gives us the absolute value of the number that is passed in***</i></span></span><br>
-
-    <div class="concept-title">
-      <b>OR</b>
-    </div>
-      <p>&lt;1st_Expression&gt; or &lt;2nd_Expression&gt;<br>
-        If the first expression evaluates to True, the value is True and the second expression is not evaluated.
-      <br>
-        If the first expression is false, then the second expression is evaluated.
-        <p>
-        Example 1
-        <p>
-        <span class="tab">def is_friend(name):</span><br>
-        <span class="tab3">return name[0] == 'D' or name[0] == 'R' <span class="tab2">      ***compares the first field of two expressions***</span></span><br>
-        <span class="tab2">print True or False</span><br>
-       <p>
-        Example 2
-        <p>
-        <span class="tab">def is_friend(name):</span><br>
-        <span class="tab3">return name[0] == 'D' or name[0] == 'R'</span><br>
-        <span class="tab">print True or False</span><br>
-        <p>
-        <span class="tab">def biggest(a,b,c):</span><br>
-        <span class="tab2">if a>b:</span><br>
-        <span class="tab3">if a>c:  <span class="tab3">  <i>***indented will allow it to be part of the comparison***</i></span></span><br>
-        <span class="tab4">return a</span><br>
-        <span class="tab3">else:</span><br>
-        <span class="tab4">return c</span><br>
-        <span class="tab2">else: <span class="tab4">  <i>***this indentation matches the first line***</i></span></span><br>
-        <span class="tab3">if b&gt;c:</span><br>
-        <span class="tab4">return b</span><br>
-        <span class="tab3">else:</span><br>
-        <span class="tab4">return c</span><br>
-        <br>
-
-    <div class="concept-title">
-      <b>Loops</b>
-    </div>
-      <br>
-        <span class="tab">while &lt;TestExpression&gt;:</span><br>
-        <span class="tab3">&lt;block&gt;<span class="tab">  ***test over and over until false***</span></span><br>
-        <br>
-        <span class="tab">if &lt;TestExpression&gt;:</span><br>
-        <span class="tab3">&lt;block&gt;<span class="tab">  ***0 or 1 times***</span></span><br>
-       <p>
-        Example
-        <p>
-        def print_numbers(n):
-        <br>
-        <span class="tab">i=0 <span class="tab3">  <i>***initalize the variable 'i'***</i></span></span><br>  
-        <span class="tab">while i&lt;10:<span class="tab">  <i>***while and the test expression***</i></span></span><br> 
-        <span class="tab2">print i<span class="tab3">  <i>***if expression is true then enter the block***</i></span></span><br>  
-        <span class="tab2">i=i+1<span class="tab3">  <i>***this is the assigment use if expression is True***</i></span></span><br>  
-        <span class="tab4"><i>***if false then start the next expression in that indentation***</i></span><br>
-  
-    <div class="session">
-      <h2>Structured Data: Lists and For Loops</h2>
-    </div>
-    
-    <div class="concept-title">
-      <p><b>Lists</b> - a new way to store data in a more structured object</p>
-      <p><b>For Loops</b> - new type of loop to iterate over structured data</p>
-      <p><b>Structured Data:</b>
-    </div>    
-        <ul>
-        <li>String data type - a sequence of ONLY characters (surrounded by single or double quotes)</li>
-        <li>List data type - sequence of ANYTHING numbers, characters, other lists!!!  Use square brackets</li>
-      </ul>
-
-        <p>
-        Example 1
-        <p>
-        <span class="tab2">days_in_month = [31,28,31,30,31,30,31,31,30,31,30,31]</span><br>
-        <span class="tab2">def how_many_days(month):</span><br>
-        <span class="tab3">return days_in_month[month-1]</span><br>
-        <span class="tab2">print how_many_days(1)</span><br>
-       <p>
-
-      <b>Nested Lists</b>
-      <p>
-        Example of characters and numbers:
-        <p>
-        <span class="tab2">mixed up = ['apple', 3, 'oranges', 27, [1,2, ['alpha', 'beta']]]</span><br>
-
-    
-    <p><b>Mutations</b><p>
-        <ul>
-          <li>Only supported by Lists, not Strings</li>
-          <li>Lists support mutations</li>
-          <li>Mutations allow you to modify a value in the variable</li>
-        </ul>
-
-    <p><b>Aliasing</b> - You can assign different names to a Variable</p>
-
-
-    <div class="session">
-      <h2>List Operations</h2>
-    </div>
-   
-   <div class="concept-title">
-    <p><b>Append</b> - updates a list with a new element</p>
-   </div>
-
-    <p><b>Plus</b> - similar to concatenation for strings.  It doesn't mutate but it produces a new list</p>
-
-
-    <p><b>Len</b> - all elements are counted</p>
-
-    <p><b>Length and Plus</b> - stands for length and outputs the number of elements in the input</p>
-
-    <p><b>Length and Append</b> - elements and appended lists are counted (elements inside the list aren't counted)</p>
-
-    <div class="session">
-      <h2>Loops on Lists</h2>
-    </div>
-
-    <div class="concept-title">
-    <b>While Loops</b>
-  </div>
-    <br>
-    <span class="tab">while &lt;Test&gt;:</span>
-        <span class="tab">  ***'while' followed by a 'test' expression, if true then execute the following block statements***</span><br>
-        <span class="tab">&lt;block&gt;:</span><span class="tab">  ***keep executing the block as long as the 'test' is true***</span><br>
-        <p>
-        Example
-        <p>
-        def print_all_elements(p):
-        <br>
-        <span class="tab">i=0 <span class="tab4">  <i>***introduce a variable named 'i' and initialize it's value to '0'***</i></span></span><br>  
-        <span class="tab">while i&lt;len(p)-1:<span class="tab">  <i>***use 'i' to index through the elements of that list***</i></span></span><br> 
-        <span class="tab2">print p[i]<span class="tab3">  <i>***for each element we'll print out that value***</i></span></span><br>  
-        <span class="tab2">i-i+1<span class="tab4">  <i>***increase 'i' + 1***</i></span></span><br>  
-
-    <p><b>For Loops</b></p>
-        for &lt;name&gt; in &lt;list&gt;:
-        <span class="tab2">  ***similar to While and If statement***</span>
-        <br>
-        <span class="tab"></span>&lt;block&gt;<br>
-        def print_all_elements(p):<br>
-        <span class="tab">for e in p:</span><br> 
-        <span class="tab2">print e</span>
-        <p>
-        Example
-        <p>
-        def sum_list(x):<span class="tab4"><i>***define sum_list with 'x'***</i></span>
-        <br>
-        <span class="tab">tracker = 0<span class="tab4">  <i>***use the variable 'tracker' to keep track of the sum so far***</i></span></span><br>  
-        <span class="tab">for y in x:<span class="tab4">  <i>***use a for loop to go through the elements of 'x'***</i></span></span><br> 
-        <span class="tab2">result = result + y<span class="tab2">  <i>***add that value to 'result'***</i></span></span><br>  
-        <span class="tab">return result</span>
-
-  </body>
-</html>
+<P><B>OS</B> - This module provides a portable way of using operating system dependent funtionality</P>
+<p>Project example: Secret Message
+This code will get the file names and rename each one</p>
+<UL>
+  <LI>os.listdir - returns a list containing the names of the entries in the directory given by path.  The list is in arbitrary order.  It does not include the special entries '_' and "__" even if they are present in the directory.</LI>
+  <LI>os.getcwd - returns a string representing the current working diretory</LI>
+  <LI>os.rename - renames the file or directory</LI>
+  <LI>os.chdir - this will change the current working directory to path</LI></UL>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6UQlRQUIli0" style="border:0;" allowfullscreen></iframe>  
+<P><B>Turtle</B> - Inside of the file 'turtle' is a class called Turtle.
+It's a neatly packaged box that puts things together very well.
+<br>turtle.Turtle()
+This the function <em><b>init</b></em> which stands for initialize.  It creates space in memory for a new instance or object of the class turtle.</P>
+<BR><IMG alt="Python Library" src="index_files/turtle.gif">
+<DIV class="session">
+<H2>CLASSES</H2></DIV>    A Class is a template that can be reused.     
+<P><B>What is the Python FROM?</B> - For importing a specific variable, class or a function from a module</P>
+<P><B>What is a CLASS?</B> - A class is something that just contain the 
+structure (how something should be loading out or structured)</P>
+<P><B>What is an instance of a CLASS?</B> - Since the class doesn't fill in any 
+content, instances contain the classes content</P>
+<P><B>Analogy to explain Classes:</B> - Everybody has to fill out a tax form but 
+the content they put in it differs from person to person. A class is like the 
+form: it specifies what content should exist. Your copy of the form with your 
+specific information if like an instance of the class: it specifies what the 
+content actually is (hence your AGI and what you pay the government.</P>
+<UL>
+  <LI>Class is like a blueprint. A blueprint of a building contains info like 
+  height and width of walls. We can use one blueprint to build several buildings 
+  (instances or objects).</LI>
+  <LI>The class Turtle contains info like move forward, back, etc.  We used that 
+  class to create instances named Brad and Angie.</LI>
+  <LI>The class Movie (used in following project) needs data (title, storyline, poster image, trailer 
+  link).</LI>
+  <LI>It is good practice to create class definition in one file and call/use it 
+  from another file.</LI></UL>
+<p>Project example: Make Classes Movie Website</p>
+This project has a file called media. Inside this file is a defined a class called Movie. The code media.Movie(): calls the init function to construct space.
+<UL>
+  <LI>The code media.Movie(): calls the init function to construct space.</LI>
+  <LI>The movies will be the Instance</LI>
+  <LI>The init function will be constructed</LI>
+  <LI>The self object being created is the movie</LI>
+  <LI>Unique instant variables are represented for each class (ex. title, storyline, poster_image_url and trailer_youtube_url)</LI>
+  <LI>Instant methods are defined for each class and associated to an instance</LI>
+  <LI>We'll use webbrowser.open to play the YouTube trailers</LI></UL>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/FnTlD9vSoeY" style="border:0;" allowfullscreen></iframe>
+<DIV class="session">
+<H2>OBJECT ORIENTED TERMINOLOGY</H2></DIV>
+<P><B>Object</B> - Updates a list with a new element</P>
+<P><B>Class</B> -  A user-defined prototype for an object that defines a set of attributes that characterize any object of the class. The attributes are data members (class variables and instance variables) and methods, accessed via dot notation. </P>
+<P><B>Instance</B> - All elements are counted</P>
+<P><B>Constructor</B> - Constructs the init functions</P>
+<P><B>Self</B> - Is the object being created (the movie)</P>
+<P><B>Method</B> - A special kind of function that is defined in a class definition.</P>
+<P><B>Instant Method</B> - A function that is defined inside a class and is associated with an instance</P>
+<P><B>Module</B> - The file containing Python definitions and statements.  The file name will have the suffic .py appended.</P>
+<P><B>Library</B> - Bible to all things Python including modules such as webbrowser, time, os, turtle and many many more.</P>
+<P><B>Class Variable</B> - A variable that is shared by all instances of a class. Class variables are defined within a class but outside any of the class's methods. Class variables are not used as frequently as instance variables are. </P>
+<P><B>Instance Variable</B> - A variable that is defined inside a method and belongs only to the current instance of a class. This makes it unique to each instance of class (movie project ex. title, storyline, poster_image_url and trailer_youtube_url)</P>
+<P><B>Inheritance</B> - The transfer of the characteristics of a class to other classes that are derived from it. </P>
+<P><B>Method Overriding</B> - ability of a class to change the implementation of a method provided by one of its ancestors. Overriding is a very important part of OOP since it is the feature that makes inheritance exploit its full power. Through method overriding a class may "copy" another class, avoiding duplicated code, and at the same time enhance or customize part of it. Method overriding is thus a strict part of the inheritance mechanism.</P></BODY></HTML>
